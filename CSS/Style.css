@@ -60,8 +60,11 @@ p{
     color:#333;
 }
 .bg-primary{
-    background: #333;
-    color:#f7c08a;
+    color: #333;
+    background:#f7c08a;
+}
+.clr{
+    clear: both;
 }
 /* Navigation Bar */
 #navbar {
@@ -145,4 +148,20 @@ p{
 
 #home-info #info-conetnt p{
     padding-bottom: 30px;
+}
+/* Fetaures Section */
+.box{
+    float: left;
+    max-width: 33.3%;
+    padding: 50px;
+    text-align: center;
+
+}
+
+/* footer */
+#main-footer{
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
 }
